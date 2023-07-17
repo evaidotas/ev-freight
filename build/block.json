@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/ev-freight",
+  "version": "0.1.0",
+  "title": "EV Freight",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Freight block displaying freights generated from API",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "numberSelection": {
+      "type": "integer",
+      "default": 5
+    }
+  },
+  "textdomain": "ev-freight",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
